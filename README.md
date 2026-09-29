@@ -38,7 +38,7 @@ Certifique-se de ter um compilador C instalado no sistema (ex.: gcc).
 Clone o repositório:
 
 ```Bash
-git clone [https://github.com/hellen-pyphile/domino-lp2026.git](https://github.com/hellen-pyphile/domino-lp2026.git)
+git clone [https://github.com/hellen-pyphile/domino-lp2026.git](https://github.com/victoriatvrs/Domino.git)
 cd domino-lp2026
 ```
 
