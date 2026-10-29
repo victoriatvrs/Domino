@@ -1,19 +1,19 @@
-# 🀄 Dominó — Projeto LP2026
+# Dominó — Projeto LP2026
 
 Repositório dedicado ao desenvolvimento de um jogo de dominó completo em C para terminal, suportando partidas entre dois jogadores humanos ou contra o computador (IA), estruturado sob a arquitetura **MVC (Model-View-Controller)**.
 
 ---
 
-## 📌 Visão Geral
+## Visão Geral
 
-- 👥 **Modos de Jogo:** 1 Jogador (vs. IA heurística) ou 2 Jogadores locais
-- 💾 **Persistência:** Sistema de save/load de partidas em arquivo binário (`TESTEX.txt`)
-- 🏛️ **Arquitetura:** Separação estrita em MVC (Model-View-Controller)
-- 👥 **Autores:** Hellen Araujo da Silva, João Vitor Carvalho Magalhães Quintella, Rodrigo Corio Ferrer dos Santos, Victoria Spina Tavares
+- **Modos de Jogo:** 1 Jogador (vs. IA heurística) ou 2 Jogadores locais
+- **Persistência:** Sistema de save/load de partidas em arquivo binário (`TESTEX.txt`)
+- **Arquitetura:** Separação estrita em MVC (Model-View-Controller)
+- **Autores:** Hellen Araujo da Silva, João Vitor Carvalho Magalhães Quintella, Rodrigo Corio Ferrer dos Santos, Victoria Spina Tavares
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 - **C (Padrão C99/C11)**
 - **GCC / Clang** (Compilação)
@@ -21,7 +21,7 @@ Repositório dedicado ao desenvolvimento de um jogo de dominó completo em C par
 
 ---
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
 ├── Dom_HJRV_PROJETO.c          # main(): Ponto de entrada e semente aleatória
@@ -32,7 +32,7 @@ Repositório dedicado ao desenvolvimento de um jogo de dominó completo em C par
 └── README.md                   # Documentação do projeto
 ```
 
-## 🚀 Como Compilar e Executar
+## Como Compilar e Executar
 Certifique-se de ter um compilador C instalado no sistema (ex.: gcc).
 
 Clone o repositório:
@@ -57,7 +57,7 @@ Execute o jogo:
 domino.exe
 ```
 
-## 🎮 Funcionalidades e Menus
+## Funcionalidades e Menus
 Menu Principal
 1. Nova partida: Embaralha (Fisher–Yates) e distribui 7 peças para cada jogador, definindo o modo (1P vs CPU ou 2P).
 
@@ -82,7 +82,7 @@ Menu Durante a Partida
 
 0. Sair: Encerra a rodada atual.
 
-## 🧠 Heurística da IA
+## Heurística da IA
 Nas partidas para 1 jogador, a decisão da CPU é calculada automaticamente:
 
 Filtra as peças em mãos (J2) compatíveis com as extremidades abertas (mesaEsq ou mesaDir).
